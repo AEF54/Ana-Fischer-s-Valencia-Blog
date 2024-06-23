@@ -1,0 +1,88 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color:#D3E2EF;
+	margin: 0px;}
+
+
+	h1 {
+	text-align:center;
+	font-size: 60px;
+	color: #333;
+	text-shadow:
+		-1px -1px 0 white,
+		1px -1px 0 white,
+		-1px 1px 0 white,
+		1px 1px 0 white;  
+		margin-top:60px;}
+
+	.center {
+  		display: block;
+  		margin-left: auto;
+ 		margin-right: auto;}
+	
+	.navbar {
+ 		overflow: hidden;
+ 		background-color: #333;
+  		position: fixed;
+  		top: 0;
+ 		width: 100%;
+	z-index:999;
+		}
+
+	.navbar a {
+  		float: left;
+ 		display: block;
+  		color: white;
+  		padding: 14px 16px;
+  		text-decoration: none;
+	}
+
+	.navbar a:hover {
+  		background: #444;
+  		color: #fff;
+	}
+	h2{
+	color: white;
+	text-shadow:
+		-1px -1px 0 #333,
+		1px -1px 0 #333,
+		-1px 1px 0 #333,
+		1px 1px 0 #333;}
+
+	#p1{ 
+		text-indent:2em ;
+		padding: 25px 5px 25px 5px;}
+	#p2{ 
+		text-indent:2em ;
+	padding: 25px 5px 25px 5px;}
+	#p3{ 
+		text-indent:2em ;
+	padding: 25px 5px 25px 5px;}
+	#p4{ 
+		text-indent:2em ;
+	padding: 25px 5px 25px 5px;}
+	#p5{ 
+		text-indent:2em ;
+	padding: 25px 5px 25px 5px;}
+	#p6{ 
+		text-indent:2em ;
+	padding: 25px 5px 25px 5px;}
+	#p7{ 
+		text-indent:2em ;
+	padding: 25px 5px 25px 5px;}
+	#p8{ 
+		text-indent:2em ;
+	padding: 25px 5px 25px 5px;}
+
+	.column {
+ 	 float: left;
+ 	 width: 33.33%;
+  	padding: 0px;
+	}
+
+	.row::after {
+ 	 content: "";
+ 	 clear: both;
+	  display: table;
+	}
+	
